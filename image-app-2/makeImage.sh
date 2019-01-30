@@ -1,1 +1,1 @@
-sudo docker build -t image-app-1 .
+sudo docker build -t image-app-2 .
