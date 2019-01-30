@@ -1,0 +1,21 @@
+version: "3"
+services:
+  service.web:
+    image: image-webserver 
+    ports:
+      - "80:80"
+    restart: always
+
+  service.app.1:
+    image: image-app-1
+    ports:
+      - "8080:8080"
+    restart: always
+
+  service.app.2:
+    image: image-app-2
+    ports:
+      - "8081:8081"
+    restart: always
+
+
