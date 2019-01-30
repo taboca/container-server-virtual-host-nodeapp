@@ -86,4 +86,4 @@ Now you are good to go, you can open your best browser and try each domain. Noti
 
 Notice: I am using a Mac so I had a problem with the /etc/hosts file being ignored. I was able to fix due to [this solution](https://superuser.com/questions/1191172/osx-sierra-hosts-file-is-ignored) editing the /etc/resolv.conf.
 
-Of course this is a controlled scenario that you are informing your local computer that the above domains are the 127.0.0.1. In the real world and production scenario you shall be using DNS servers with a real domain propagated. If you liked this tutorial please feedback me.
+Of course this is a controlled scenario that you are informing your local computer that the above domains are the 127.0.0.1. In the real world and production scenario you shall be using DNS servers with a real domain propagated. If you liked this tutorial please feedback me. Here is a [video with my narrative](http://youtu.be/id-RHuGqTXw)
