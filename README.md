@@ -57,5 +57,29 @@ Therefore, when using Docker compose, a network gets created and the containers 
 When you launch the system, with "sudo docker-compose-up", keep in mind that Docker compose will launch one container for each service.
 
 ```
-sudo docker-compose up -d
+sudo docker-compose up
 ```
+
+Notice: **In this example, we are launching "docker-compose" without the "-d" parameter so that we can see log outputs, eventually served from the NodeJS-based scripts. **
+
+As you launch these 3 services, you shall verify that Docker Compose creates a networks and informs you about the name that is the name of the directory where this "docker-compose.yml" is installed.
+
+In my case, this local root directory was named "compose" so Docker Compose created a network called "compose".
+
+### Testing
+
+Before we attempt to use the browser, to load the apps, we need to tell your local computer and map the names (eg., www.myexamplesite.com,
+www.myothersite.com) as your localhost.
+
+```
+sudo vi /etc/hosts
+```
+
+And add the following lines:
+
+```
+127.0.0.1 www.myexamplesite.com
+127.0.0.1 www.myothersite.com
+```
+
+Now you are good to go, you can open your best browser and try each domain. Notice the log outputs served in the shell where you launched via docker-compose.
