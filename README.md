@@ -1,4 +1,4 @@
-# Introduction
+# Study notes - Docker container with a server and 2 NodeJS apps
 
 Welcome to a tutorial and the opportunity to learn a bit about Docker. This is a simple case example intended to show you a Docker-based "app", a system with 3 containers, that shall be installed in a host system, a computer.
 
